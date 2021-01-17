@@ -1,0 +1,12 @@
+clc
+clear
+clf
+x = linspace(-3,6,50);
+licznik = 3*x^2+3*x+5;
+mianownik = x^2+sin(x);
+y = licznik.*mianownik^(-1);
+plot(x,y)
+xlabel('x') //to etykieta
+ylabel('y')
+title('wykres zad.2', 'fontsize', 3)
+legend('linia')
